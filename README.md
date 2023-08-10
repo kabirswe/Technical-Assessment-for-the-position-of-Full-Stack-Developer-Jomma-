@@ -27,4 +27,8 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
+
+
+# Project image
+
 ![alt text](https://github.com/kabirswe/Technical-Assessment-for-the-position-of-Full-Stack-Developer-Jomma-/blob/main/Screenshot%202023-08-11%20at%2012.43.00%20AM.png?raw=true)
