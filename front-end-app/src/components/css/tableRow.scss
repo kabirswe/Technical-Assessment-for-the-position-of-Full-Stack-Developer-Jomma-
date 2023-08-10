@@ -1,0 +1,76 @@
+
+.table-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 140px;
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12%;
+        color: #2C7C7A;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &.text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            color: #1E1E24;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: normal;
+            span {
+                color: #1E1E24;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.54px;
+            }
+        }
+        &.price {
+            display: flex;
+            flex-direction: column;
+            color: #1E1E24;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.54px;
+            span {
+                color: #EE1818;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+        &.year {
+            color: #389429;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &.action {
+            img {
+                height: 60px;
+                cursor: pointer;
+            }
+        }
+        &:first-child {
+            width: 30%;
+            justify-content: flex-start;
+            text-align: left;
+        }
+        &:nth-child(3) {
+            margin-left: 16%;
+        }
+        &:last-child {
+            width: 30%;
+            justify-content: flex-end;
+        }
+    }
+}

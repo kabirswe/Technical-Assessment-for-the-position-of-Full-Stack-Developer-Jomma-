@@ -1,0 +1,91 @@
+.invest-wrapper {
+    padding: 56px 100px 94px;
+    position: relative;
+    .invest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .value-block {
+            margin: 0 auto;
+            margin-left: 0;
+            color: #E4572E;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.54px;
+            img {
+                height: 60px;
+                width: 60px;
+            }
+        }
+        .menu-block {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin-top: 40px;
+            .link {
+                color: #E4572E;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: normal;
+                position: relative;
+                &.active {
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        border-radius: 50px;
+                        background: #E4572E;
+                        width: 100%;
+                        height: 8px;
+                        flex-shrink: 0;
+                        bottom: -12px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+        }
+        .content-block {
+            width: 70%;
+            padding: 25px 122px;
+            margin-top: 84px;
+            background: rgb(44 124 122 / 10%);
+            p {
+                color: #1E1E24;
+                margin-bottom: 0;
+                text-align: left;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.54px;
+                &:nth-child(2) {
+                    margin-top: 10px;
+                }
+                &:nth-child(3) {
+                    margin-top: 46px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                &:nth-child(4) {
+                    color: #389429;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                .text {
+                    display: inline-block;
+                    width: 350px;
+                }
+                .price {
+                    margin-left: 24px;
+                    color: #2C7C7A;
+                }
+            }
+        }
+        .icon-fixed {
+            position: absolute;
+            right: 0;
+            bottom: 70px;
+        }
+    }
+}

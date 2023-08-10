@@ -1,0 +1,59 @@
+.portfolio-wrapper {
+    background: linear-gradient(329deg, #2C7C7A 0%, rgba(65, 181, 181, 0.75) 100%);
+    margin: 0 -1.5rem;
+    .portfolio {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 36px 10%;
+        
+        .value-block {
+            text-align: left;
+            p {
+                color: #FFF;
+                font-family: 'Poppins', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.21px;
+                margin-bottom: 0;
+                &:nth-child(2), &:nth-child(4) {
+                    font-size: 20px;
+                    margin-top: 20px;
+                    font-weight: 700;
+                }
+                &:nth-child(3) {
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+                &:nth-child(5) {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                img {
+                    margin-left: -10px;
+                }
+                span {
+
+                }
+            }
+        }
+        button {
+            display: inline-flex;
+            height: 51px;
+            padding: 11px 50px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+            border: 0;
+            border-radius: 100px;
+            background: #FFF;
+            color: #2C7C7A;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.05px;
+        }
+    }
+}
