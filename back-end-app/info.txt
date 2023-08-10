@@ -1,0 +1,6 @@
+Project setup
+======================
+1. create a mysql bd named 'node_restapi'.
+2. import provided db on mysql.
+3. Run command 'mpn install' to install dependency.
+4. Run command 'node app.js' to run the project.
